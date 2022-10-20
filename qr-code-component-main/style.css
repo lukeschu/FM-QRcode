@@ -9,16 +9,13 @@ html {
 
 main {
   font-family: "Outfit", sans-serif;
-
   background-color: var(--White);
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 280px;
+  width: 275px;
   padding: 15px;
-  position: relative;
-  margin: auto;
 }
 
 :root {
@@ -32,11 +29,11 @@ p {
   font-size: 15px;
   color: var(--Grayish-blue);
   font-weight: 400;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 20px;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 21px;
   color: var(--Dark-blue);
   margin: 20px 0px 15px;
   font-weight: 700;
@@ -45,6 +42,7 @@ h2 {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 4px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
